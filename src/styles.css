@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.input {
+  display: grid;
+  grid-template-columns: .3fr 1fr;
+  margin: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: auto;
+}
